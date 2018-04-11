@@ -4,8 +4,8 @@ layout: default
 
 This is the course page
 for the summer semester 2018 edition of the course
-statistical natural lanuage processing (NLP)
-at the [Linguistic Department](http://sfs.uni-tuebingen.de),
+statistical natural language processing (NLP)
+at the [Department of Linguistics](http://sfs.uni-tuebingen.de),
 [University of Tübingen](http://uni-tuebingen.de).
 
 Natural language processing  is
@@ -42,10 +42,14 @@ the instructor before signing up.
 This year, we will use
 [GitHub classroom](https://classroom.github.com/classrooms/36228864-nlp-course-sfs-university-of-tubingen)
 for assignments.
-You neeed to obtain a [GitHub](https://github.com) account
+You need to obtain a [GitHub](https://github.com) account
 to receive and submit your assignments.
 
 More details, can be found in the [course syllabus](snlp-syllabus2018.pdf).
 
 ## Contact
 
+- Instructor: Çağrı Çöltekin <ccoltekin**@**sfs.uni-tuebingen.de>  
+  Office hours: Wednesday 12:00 - 14:00
+  (Willemstr. 19, room 1.09)
+- Tutor: Verena Blaschke <verena.blaschke**@**student.uni-tuebingen.de>
