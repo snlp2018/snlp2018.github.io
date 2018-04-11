@@ -1,0 +1,17 @@
+# Site settings
+title: Statistical Natural Language Processing
+subtitle: > # ignore newlines until "description:"
+    Course web page, summer semester 2018 -
+    <a href="http://www.sfs.uni-tuebingen.de">SfS</a>,
+    <a href="http://uni-tuebingen.de/">Univesity of Tübingen</a>
+description: > # ignore newlines until "baseurl:"
+    This is the course web page for Statistical Natural Language Processing,
+    taught in the linguistic department (SfS), Univesity of Tübingen.
+baseurl: ""
+url: "https://snlp2018.github.io"
+github_username:  snlp2018
+
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
