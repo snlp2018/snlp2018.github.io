@@ -30,7 +30,7 @@ for reference.
 |Week| Monday| Wednesday|Friday|
 |:---|:---|:---|:----|
 | 01| Apr 16               | Apr 18                | Apr 20               |
-|   | No class             | Introduction          | Python refresher (I) |
+|   | _No class_{: style="color: red"} | Introduction          | Python refresher (I) |
 |-------
 | 02| Apr 23               | Apr 25                | Apr 27               |
 |   | Background: math     |Python refresher (II)  | Background: Prob. theory|
