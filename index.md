@@ -52,5 +52,5 @@ Further details can be found in the [course syllabus](snlp-syllabus2018.pdf).
 - Instructor: [Çağrı Çöltekin](http://coltekin.net/cagri/)
     <ccoltekin**@**sfs.uni-tuebingen.de>  
     Office hours: Wednesday 12:00 - 14:00
-    (Willemstr. 19, room 1.09)
+    (Wilhelmstr. 19, room 1.09)
 - Tutor: Verena Blaschke <verena.blaschke**@**student.uni-tuebingen.de>
