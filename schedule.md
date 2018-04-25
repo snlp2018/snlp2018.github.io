@@ -30,10 +30,10 @@ for reference.
 |Week| Monday| Wednesday|Friday|
 |:---|:---|:---|:----|
 | 01| Apr 16               | Apr 18                | Apr 20               |
-|   | _No class_{: style="color: red"} | Introduction ([slides](slides/introduction.pdf)) ([8up](slides/introduction-handout.pdf))&nbsp;&nbsp;| Python refresher (I) ([slides](slides/python_refresher_i.pdf)) ([exercises](slides/python_refresher_i_exercises.pdf))|
+|   | _No class_{: style="color: red"} | Introduction ([slides](slides/introduction.pdf)) ([8up](slides/introduction-handout.pdf))&nbsp;&nbsp;| Python refresher (I) ([slides](slides/python_refresher_i.pdf)) ([ex.](slides/python_refresher_i_exercises.pdf)) (sol: [raw](slides/python_refresher_i_exercises.ipynb), [view](https://nbviewer.jupyter.org/urls/snlp2018.github.io/slides/python_refresher_i_exercises.ipynb))|
 |-------
 | 02| Apr 23               | Apr 25                | Apr 27               |
-|   | Background: math ([slides](slides/math-refresher.pdf)) ([8up](slides/math-refresher-handout.pdf)) |Python refresher (II)  | Background: Prob. theory|
+|   | Background: math ([slides](slides/math-refresher.pdf)) ([8up](slides/math-refresher-handout.pdf)) |Python refresher (II)  ([slides](slides/python_refresher_ii.pdf)) | Background: Prob. theory|
 |-------
 | 03| Apr 30               | May 02                | May 04               |
 |   | Background: Inf. theory |Exercises           | Machine learning: intro|
