@@ -15,5 +15,5 @@ contact the instructor.
 
 - [Assignment 0](assignment0.pdf):
     registration, warm up with `git` and GitHub classroom
-- Assignment 1:
+- [Assignment 1](assignment1.pdf):
     corpus collection
