@@ -1,0 +1,141 @@
+- week: "01"
+  dates:
+    Apr 16:
+    Apr 18:
+      topic: Introduction
+      links:
+        slides: slides/introduction.pdf
+        8up: slides/introduction-handout.pdf
+    Apr 20:
+      topic: Python refresher (I)
+      links:
+        slides: slides/python_refresher_i.pdf
+        exercises: slides/python_refresher_i_exercises.pdf
+        sol(raw): slides/python_refresher_i_exercises.ipynb
+        sol(view): https://nbviewer.jupyter.org/urls/snlp2018.github.io/slides/python_refresher_i_exercises.ipynb
+- week: "02"
+  dates:
+    Apr 23:
+      topic: "Background: math"
+      links:
+        slides: slides/math-refresher.pdf 
+        8up: slides/math-refresher-handout.pdf 
+    Apr 25:
+      topic: Python refresher (II) 
+      links:
+        slides: slides/python_refresher_ii.pdf
+    Apr 27:
+      topic: "Background: prob. theory"
+      links:
+        slides: slides/probability-refresher.pdf 
+        8up: slides/probability-refresher-handout.pdf 
+- week: "03"
+  dates:
+    Apr 30:
+      topic: "Background: inf. theory"
+      links:
+        slides: slides/information-theory.pdf 
+        8up: slides/information-theory-handout.pdf 
+    May 02:
+      topic: Exercises
+    May 04:
+      topic: ML Intro / regression
+- week: "04"
+  dates:
+    May 07:
+      topic: Regression
+      links:
+        slides: slides/regression.pdf 
+        8up: slides/regression-handout.pdf 
+      reading: HTF 3.2 & 3.4
+    May 09:
+      topic: Exercises
+    May 11:
+      topic: Classification
+      reading: JM 6.6 (JM3 Ch.7), HTF 4.4
+- week: "05"
+  dates:
+    May 14:
+      topic: Classification / ML evaluation
+    May 16:
+      topic: Exercises
+    May 18:
+      topic: ML evaluation
+- week: " "
+  dates:
+    May 21: ""
+    May 23: ""
+    May 25: ""
+- week: "06"
+  dates:
+    May 28:
+      topic: Sequence learning
+    May 30:
+      topic: Exercises
+    Jun 01:
+      topic: Unsupervised learning
+- week: "07"
+  dates:
+    Jun 04:
+      topic: Neural Networks (1)
+    Jun 06:
+      topic: Exercises
+    Jun 08:
+      topic: Neural networks (2)
+- week: "08"
+  dates:
+    Jun 11:
+      topic: Neural Networks (3)
+    Jun 13:
+      topic: Exercises
+    Jun 15:
+      topic: "ML: summary"
+- week: "09"
+  dates:
+    Jun 18:
+      topic: Tokenization/segmentation
+    Jun 20:
+      topic: Exercises
+    Jun 22:
+      topic: N-gram language models (1)
+- week: "10"
+  dates:
+    Jun 25:
+      topic: N-gram language models (2)
+    Jun 27:
+      topic: Exercises
+    Jun 29:
+      topic: POS tagging / morphology
+- week: "11"
+  dates:
+    Jul 02:
+      topic: Statistical parsing (1)
+    Jul 04:
+      topic: Exercises
+    Jul 06:
+      topic: Statistical parsing (2)
+- week: "12"
+  dates:
+    Jul 09:
+      topic: Distributional semantics (1)
+    Jul 11:
+      topic: Exercises
+    Jul 13:
+      topic: Distributional semantics (2)
+- week: "12"
+  dates:
+    Jul 16:
+      topic: Text classification
+    Jul 18:
+      topic: Exercises
+    Jul 20:
+      topic: NLP applications
+- week: "14"
+  dates:
+    Jul 23:
+      topic: Summary
+    Jul 25:
+      topic: Exam
+    Jul 27:
+      topic: Exam discussion & Wrap up
+- week: ""

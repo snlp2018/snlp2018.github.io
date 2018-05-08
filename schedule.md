@@ -25,53 +25,39 @@ for reference.
    [available online](http://web.stanford.edu/~hastie/ElemStatLearn/)
 
 
-## The course schedule (tentative)
+## The course schedule
 
-|Week| Monday| Wednesday|Friday|
-|:---|:---|:---|:----|
-| 01| Apr 16               | Apr 18                | Apr 20               |
-|   | _No class_{: style="color: red"} | Introduction ([slides](slides/introduction.pdf), [8up](slides/introduction-handout.pdf))&nbsp;&nbsp;| Python refresher (I) ([slides](slides/python_refresher_i.pdf), [ex.](slides/python_refresher_i_exercises.pdf)) (sol: [raw](slides/python_refresher_i_exercises.ipynb), [view](https://nbviewer.jupyter.org/urls/snlp2018.github.io/slides/python_refresher_i_exercises.ipynb))|
-|-------
-| 02| Apr 23               | Apr 25                | Apr 27               |
-|   | Background: math ([slides](slides/math-refresher.pdf), [8up](slides/math-refresher-handout.pdf)) |Python refresher (II)  ([slides](slides/python_refresher_ii.pdf)) | Background: Prob. theory ([slides](slides/probability-refresher.pdf), [8up](slides/probability-refresher-handout.pdf))|
-|-------
-| 03| Apr 30               | May 02                | May 04               |
-|   | Background: Inf. theory |Exercises           | Machine learning: intro|
-|-------
-| 04| May 07               | May 09                | May 11               |
-|   | Regression           | Exercises             | Classification       |
-|-------
-| 05| May 14               | May 16                | May 18               |
-|   | ML evaluation        | Exercises             |                      |
-|-------
-| ||_May break_{: style="color: green"}
-|-------
-| 06| May 28               | May 30                | Jun 01               |
-|   | Sequence learning    | Exercises             | Unsupervised learning |
-|-------
-| 07| Jun 04               | Jun 06                | Jun 08               |
-|   | Neural networks (I)  | Exercises             | Neural networks (II) |
-|-------
-| 08| Jun 11               | Jun 13                | Jun 15               |
-|   | Neural networks (II)  | Exercises            | ML: summary |
-|-------
-| 09| Jun 18               | Jun 20                | Jun 22               |
-|   | Tokenization/segmentation | Exercises        | N-gram language models (I)|
-|-------
-| 10| Jun 25               | Jun 27                | Jun 29               |
-|   | N-grams (II)         | Exercises             | POS tagging / morphology|
-|-------
-| 11| Jul 02               | Jul 04                | Jul 06               |
-|   | Statistical parsing (I)| Exercises           | Statistical parsing (II) |
-|-------
-| 12| Jul 09               | Jul 11                | Jul 13               |
-|   | Semantics (I)        | Exercises             | Semantics (II)
-|-------
-| 13| Jul 16               | Jul 18                | Jul 20               |
-|   | Text classification  | Exercises             | NLP applications
-|-------
-| 14| Jul 23               | Jul 25                | Jul 27               |
-|   | Summary              | Exam                  | Wrap up              |
-|=======
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
-{: rules="groups"}
+<table rules="groups" style="width:100%;border-collapse: collapse;">
+  <thead style="border-bottom: 1px solid #000;">
+    <tr>
+      <th style="text-align:left;" width="10%">Week</th>
+      <th style="text-align:left;" width="30%">Monday</th>
+      <th style="text-align:left;" width="30%">Wednesday</th>
+      <th style="text-align:left;" width="30%">Friday</th>
+    </tr>
+  </thead>
+  <tbody style="border-bottom: 1px solid #000;">
+{% for week in site.data.schedule %}
+    <tr style="border-bottom: 1px solid #000;">
+    <td style="text-align:left;"> {{ week.week }} </td>
+    {% for date in week.dates %}
+            <td valign="top"> {{ date[0] }} <br/>
+                {% if date[1].topic %}
+                    {{ date[1].topic }}&nbsp;
+                {% else %}
+                    <em style="color: red">No class</em>
+                {% endif %}
+                {% if date[1].links %}
+                    <br/>
+                    [{% for link in date[1].links %}<a href="{{ link[1] }}">{{ link[0] }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}]
+                {% endif %}
+                {% if date[1].reading %}
+                    <br/>
+                    Reading: {{ date[1].reading }}
+                {% endif %}
+            </td>
+    {% endfor %}
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
