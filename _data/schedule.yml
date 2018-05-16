@@ -58,7 +58,9 @@
     May 14:
       topic: Classification / ML evaluation
     May 16:
-      topic: Exercises
+      topic: A1 discussion, exercises
+      links:
+        slides: slides/assignment-1-discussion.pdf
     May 18:
       topic: ML evaluation
 - week: " "
