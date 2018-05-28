@@ -53,6 +53,9 @@
     May 11:
       topic: Classification
       reading: JM 6.6 (JM3 Ch.7), HTF 4.4
+      links:
+        slides: slides/classification.pdf 
+        8up: slides/classification-handout.pdf 
 - week: "05"
   dates:
     May 14:
@@ -61,6 +64,9 @@
       topic: Exercises
     May 18:
       topic: ML evaluation
+      links:
+        slides: slides/ml-evaluation.pdf 
+        8up: slides/ml-evaluation-handout.pdf 
 - week: " "
   dates:
     May 21: ""
