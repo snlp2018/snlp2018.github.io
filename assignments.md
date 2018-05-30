@@ -21,3 +21,6 @@ please contact the instructor.
     linear regression (data:
         [training](data/timestamps.train.gz),
         [test](data/timestamps.test.gz))
+- [Assignment 3](assignment3.pdf):
+    language identification
+    (data: [training/development](data/assignment3-data.tar.gz))
