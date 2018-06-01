@@ -77,27 +77,33 @@
 - week: "06"
   dates:
     May 28:
-      topic: Sequence learning
+      topic: Summary
+      links:
+        "sample questions": practice-questions.pdf
     May 30:
       topic: Exercises
     Jun 01:
-      topic: Unsupervised learning
+      topic: Sequence learning
+      reading: "JM3 Ch.9, HTF 4.4"
+      links:
+        slides: slides/classification.pdf 
+        8up: slides/classification-handout.pdf 
 - week: "07"
   dates:
     Jun 04:
-      topic: Neural Networks (1)
+      topic: Unsupervised learning
     Jun 06:
       topic: Exercises
     Jun 08:
-      topic: Neural networks (2)
+      topic: Neural Networks (1)
 - week: "08"
   dates:
     Jun 11:
-      topic: Neural Networks (3)
+      topic: Neural networks (2)
     Jun 13:
       topic: Exercises
     Jun 15:
-      topic: "ML: summary"
+      topic: Neural Networks (3)
 - week: "09"
   dates:
     Jun 18:
