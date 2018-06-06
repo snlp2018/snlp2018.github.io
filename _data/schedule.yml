@@ -93,7 +93,10 @@
     Jun 04:
       topic: Unsupervised learning
     Jun 06:
-      topic: Exercises
+      topic: A2 discussion, review questions, exercises
+      links:
+        a2: slides/assignment-2-discussion.pdf
+        review: slides/review-discussion.pdf
     Jun 08:
       topic: Neural Networks (1)
 - week: "08"
