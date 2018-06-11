@@ -86,12 +86,15 @@
       topic: Sequence learning
       reading: "JM3 Ch.9, HTF 4.4"
       links:
-        slides: slides/classification.pdf 
-        8up: slides/classification-handout.pdf 
+        slides: slides/sequence-learning.pdf 
+        8up: slides/sequence-learning-handout.pdf 
 - week: "07"
   dates:
     Jun 04:
       topic: Unsupervised learning
+      links:
+        slides: slides/unsupervised.pdf 
+        8up: slides/unsupervised-handout.pdf 
     Jun 06:
       topic: A2 discussion, review questions, exercises
       links:
