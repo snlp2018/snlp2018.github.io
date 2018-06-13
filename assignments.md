@@ -24,3 +24,6 @@ please contact the instructor.
 - [Assignment 3](assignment3.pdf):
     language identification
     (data: [training/development](data/assignment3-data.tar.gz))
+- [Assignment 3](assignment4.pdf):
+    language identification
+    (data: [training/development](data/assignment4-data.tar.gz))
