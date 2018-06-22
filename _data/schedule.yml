@@ -124,6 +124,7 @@
       topic: Exercises
     Jun 22:
       topic: N-gram language models (1)
+      reading: "JM Ch.4"
 - week: "10"
   dates:
     Jun 25:
@@ -132,10 +133,12 @@
       topic: Exercises
     Jun 29:
       topic: POS tagging / morphology
+      reading: "JM Ch.5 (JM3: Ch.10)"
 - week: "11"
   dates:
     Jul 02:
       topic: Statistical parsing (1)
+      reading: "JM Ch.13 (JM3 Ch.12)"
     Jul 04:
       topic: Exercises
     Jul 06:
@@ -144,6 +147,7 @@
   dates:
     Jul 09:
       topic: Distributional semantics (1)
+      reading: "JM3 Ch.15&16"
     Jul 11:
       topic: Exercises
     Jul 13:
