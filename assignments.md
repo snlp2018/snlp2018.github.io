@@ -27,3 +27,7 @@ please contact the instructor.
 - [Assignment 4](assignment4.pdf):
     language identification
     ([data](data/assignment4-data.tar.gz))
+- [Assignment 5](assignment5.pdf):
+    word class identification with ANNs
+    (data: [training](data/assignment5-train.txt.gz),
+           [test](data/assignment5-test.txt.gz))
