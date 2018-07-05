@@ -133,7 +133,9 @@
     Jun 25:
       topic: N-gram language models (2)
     Jun 27:
-      topic: Exercises
+      topic: A3 discussion, exercises
+      links:
+        slides: slides/assignment-3-discussion.pdf
     Jun 29:
       topic: POS tagging
       reading: "JM Ch.5 (JM3: Ch.10)"
@@ -146,7 +148,9 @@
       topic: Statistical parsing (1)
       reading: "JM Ch.13 (JM3 Ch.12)"
     Jul 04:
-      topic: Exercises
+      topic: A4 discussion, exercises
+      links:
+        slides: slides/assignment-4-discussion.pdf
     Jul 06:
       topic: Statistical parsing (2)
 - week: "12"
