@@ -31,7 +31,10 @@ please contact the instructor.
     word class identification with ANNs
     (data: [training](data/assignment5-train.txt.gz),
            [test](data/assignment5-test.txt.gz))
-- Assignment 6: to be released
+- [Assignment 6](assignment6.pdf):
+    n-gram and RNN language models
+    (data: [training](data/assignment6-train.tar.gz),
+           [test](data/assignment6-test.tar.gz))
 - [Assignment 7](assignment7.pdf):
     identifying offensive language
     ([Germeval 2018 shared task](https://projects.fzai.h-da.de/iggsa/))

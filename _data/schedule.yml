@@ -147,6 +147,9 @@
     Jul 02:
       topic: Statistical parsing (1)
       reading: "JM Ch.13 (JM3 Ch.12)"
+      links:
+        slides: slides/parsing.pdf 
+        8up: slides/parsing-handout.pdf 
     Jul 04:
       topic: A4 discussion, exercises
       links:
