@@ -159,12 +159,15 @@
 - week: "12"
   dates:
     Jul 09:
-      topic: Distributional semantics (1)
+      topic: Vector representations (1)
       reading: "JM3 Ch.15&16"
+      links:
+        slides: slides/vector-representations.pdf 
+        8up: slides/vector-representations-handout.pdf 
     Jul 11:
       topic: Exercises
     Jul 13:
-      topic: Distributional semantics (2)
+      topic: Vector representations (2)
 - week: "12"
   dates:
     Jul 16:
