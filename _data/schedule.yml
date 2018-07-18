@@ -172,6 +172,9 @@
   dates:
     Jul 16:
       topic: Text classification
+      links:
+        slides: slides/text-classification.pdf 
+        8up: slides/text-classification-handout.pdf 
     Jul 18:
       topic: Exercises
     Jul 20:
