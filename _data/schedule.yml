@@ -176,7 +176,9 @@
         slides: slides/text-classification.pdf 
         8up: slides/text-classification-handout.pdf 
     Jul 18:
-      topic: Exercises
+      topic: A5 discussion, exercises
+      links:
+        slides: slides/assignment-5-discussion.pdf
     Jul 20:
       topic: NLP applications
 - week: "14"
