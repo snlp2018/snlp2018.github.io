@@ -25,7 +25,7 @@ please contact the instructor.
     language identification
     (data: [training/development](data/assignment3-data.tar.gz))
 - [Assignment 4](assignment4.pdf):
-    language identification
+    clustering languages
     ([data](data/assignment4-data.tar.gz))
 - [Assignment 5](assignment5.pdf):
     word class identification with ANNs

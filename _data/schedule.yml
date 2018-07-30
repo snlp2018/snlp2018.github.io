@@ -181,6 +181,9 @@
         slides: slides/assignment-5-discussion.pdf
     Jul 20:
       topic: NLP applications
+      links:
+        slides: slides/nlp-applications.pdf 
+        8up: slides/nlp-applications-handout.pdf 
 - week: "14"
   dates:
     Jul 23:
